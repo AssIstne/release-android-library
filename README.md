@@ -2,9 +2,9 @@ release-android-library
 =======================
 用作将本地Android-Library包装成maven工程, 这是因为[bintray](https://bintray.com/)上传库到Jcenter要求:
 > Before you can include your package in JCenter, the following requirements must be met:
->1. The package must be in a Maven repository and must contain Maven sources.
->2. The path of the files (entered in the Upload Files form of the Version page) must conform to Maven standards (the Group ID and Artifact ID combination must be unique, etc.; for more information about Maven standards, consult the appropriate Maven documentation)
->3. Every version within the package that includes files must also include a valid POM file.
+> 1. The package must be in a Maven repository and must contain Maven sources.
+> 2. The path of the files (entered in the Upload Files form of the Version page) must conform to Maven standards (the Group ID and Artifact ID combination must be unique, etc.; for more information about Maven standards, consult the appropriate Maven documentation)
+> 3. Every version within the package that includes files must also include a valid POM file.
 
 因此需要这个脚本生成合适的包(.zip)直接上传到bintray并发布至Jcenter.参考该[blog](https://medium.com/@tigr/how-to-publish-your-android-studio-library-to-jcenter-5384172c4739#.cxq364us2)
 
