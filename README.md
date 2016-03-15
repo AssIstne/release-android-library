@@ -10,7 +10,7 @@ release-android-library
 > 3. Every version within the package that includes files must also include a valid POM file.
 
 因此需要这个脚本生成合适的包(.zip)直接上传到bintray并发布至Jcenter.参考该[blog](https://medium.com/@tigr/how-to-publish-your-android-studio-library-to-jcenter-5384172c4739#.cxq364us2)
-=======================
+
 Remote script to create a maven compatible release of an android library (aar). This release comes in a zip or exploded form and is only created locally inside your own build folder. You can these use these files to release to JCenter or Maven Central.
 
 Matching blog post here: [blog.blundell-apps.com/locally-release-an-android-library-for-jcenter-or-maven-central-inclusion/](http://blog.blundell-apps.com/locally-release-an-android-library-for-jcenter-or-maven-central-inclusion/)
